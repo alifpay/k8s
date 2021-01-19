@@ -23,7 +23,18 @@ As a result, we decided to rewrite all so that our system becomes scalable, main
 
 Issues: 
 - All about embedded is bad for scaling, embedded cache, embedded database, embedded workers(jobs) etc.
-- 
+- Write code in modules which are independent of each other at code level.
+- Try to divide app in micro services.
+- Store assets in CDN.
+- Use cloud storage to store dynamic assets and resources.
+- Maintain only code on servers (No Assets, No Uploaded videos or images).
+- Use containerization (This is the key to scaling).
+- Make your code(app) platform independent.
+- Put configuration variable in configuration files, don’t hard code.
+- Don’t hard code anything.(Never Ever) (IP, Domain Names)
+- Separate Project for Separate Purpose
+- Use distributed database instead of central one.
+- Learn Docker and Kubernetes or any other container orchestration.
 
 
 
