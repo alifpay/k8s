@@ -15,6 +15,9 @@ and the possibility of carrying out the A/B tests reduces.
 - Storage limitations
 - Network limitation
 - Failures in server
+- Deployment
+- Supporting
+
 
 As a result, we decided to rewrite all so that our system becomes scalable, maintainable and distributed.
 
@@ -28,3 +31,5 @@ Issues:
 # Resource for reading
 
 https://cloud.google.com/solutions/scalable-and-resilient-apps
+
+http://highscalability.com/blog/category/example
